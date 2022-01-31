@@ -2,8 +2,8 @@
 
 ## Whirlwind tour of the course
 
-* [ ] Say hello to react - Parcel generates React App from jsx
-* [ ] Routing requests in React - navigate
+* [x] Say hello to react - Parcel generates React App from jsx
+* [x] Routing requests in React - navigate
 * [ ] List existing movies
 * [ ] Add new movie using forms and state
 * [ ] Encapsulate movie database 
