@@ -16,14 +16,13 @@ const MOVIES = [
     },
 ];
 
-
 app.get("/api/movies", (req, res) => {
    res.json(MOVIES);
 });
 
-app.use(express.static(path.resolve("../dist")));
+app.use(express.static(path.resolve("..", "client", "dist")));
 app.use((req, res) => {
-    res.sendFile(path.resolve("..", "dist", "index.html"));
+    res.sendFile(path.resolve("..", "client", "dist", "index.html"));
 });
 
 const server = app.listen(3000, () => {
